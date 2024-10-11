@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-add-to-cart-medium {
+        @apply text-sm font-semibold rounded-lg bg-primary-light px-3.5 py-1.5 text-primary duration-200 hover:bg-primary hover:text-white;
+    }
+    .btn-add-to-cart-big {
+        @apply inline-flex items-center justify-center rounded-lg bg-none px-5 py-2 font-bold text-primary hover:bg-primary hover:text-white bg-primary-light transition-all duration-200;
+    }
+
+    .btn-add-to-wishlist-small {
+        @apply duration-200 text-secondary-bright hover:text-primary fill-secondary-bright hover:fill-primary bg-transparent hover:bg-primary-light rounded-lg w-8 h-8 text-center p-1 pt-0.5;
+    }
+    .btn-add-to-wishlist-small-active {
+        @apply duration-200 text-primary hover:text-primary-dark fill-primary hover:fill-primary-dark bg-transparent hover:bg-primary-light rounded-lg w-8 h-8 text-center p-1;
+    }
+    .btn-add-to-wishlist-big {
+        @apply inline-flex items-center justify-center p-1.5 font-medium text-secondary-dark hover:text-primary fill-secondary-dark hover:fill-primary transition duration-200;
+    }
+    .btn-add-to-wishlist-big-active {
+        @apply inline-flex items-center justify-center p-1.5 font-medium text-primary hover:text-primary-dark fill-primary hover:fill-primary-dark transition duration-200;
+    }
+
+    .btn-text-apply-promotion-medium {
+        @apply text-sm font-normal rounded-r-md bg-primary px-3 py-1.5 text-secondary-very-light duration-200 hover:bg-primary-dark;
+    }
+}

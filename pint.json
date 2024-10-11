@@ -1,0 +1,22 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "concat_space": false,
+        "combine_consecutive_issets": true,
+        "combine_consecutive_unsets": true,
+        "single_trait_insert_per_statement": false,
+        "phpdoc_align": true,
+        "phpdoc_param_order": true,
+        "phpdoc_single_line_var_spacing": true,
+        "phpdoc_trim": true,
+        "strict_comparison": true,
+        "whitespace_after_comma_in_array": true,
+        "trim_array_spaces": true,
+        "single_line_empty_body": true,
+        "void_return": true,
+        "phpdoc_add_missing_param_annotation": false,
+        "phpdoc_to_return_type": {
+            "scalar_types": true
+        }
+    }
+}
